@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+h1 {
+    color: #2c3e50;
+    text-align: center;
+}
+
+h2 {
+    color: #34495e;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+}
+
+p {
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2980b9;
+    text-decoration: underline;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+ul {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+
+.seccion-principal {
+    background-color: #ffffff;
+    padding: 40px;
+    margin: 20px auto;
+    max-width: 900px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.seccion-principal h1 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.seccion-principal p {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+    color: #555;
+}
+
+
+.seccion-beneficios {
+    background-color: #eaf4ff;
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 900px;
+    border-radius: 10px;
+}
+
+.seccion-beneficios h2 {
+    color: #1f4e79;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.seccion-beneficios ul {
+    list-style-type: square;
+    padding-left: 30px;
+}
+
+.seccion-beneficios li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
