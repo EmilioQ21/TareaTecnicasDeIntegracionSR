@@ -1,111 +1,124 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+    background-color: #121212;
     margin: 0;
     padding: 20px;
-    color: #333;
+    color: #e4e4e4;
 }
 
 h1 {
-    color: #2c3e50;
+    color: #c084fc;
     text-align: center;
+    font-size: 2.8rem;
+    font-weight: 800;
+    letter-spacing: 2px;
 }
 
 h2 {
-    color: #34495e;
-    border-bottom: 2px solid #3498db;
-    padding-bottom: 5px;
+    color: #f5f5f5;
+    border-bottom: 3px solid #8b5cf6;
+    padding-bottom: 10px;
+    font-size: 2rem;
+    font-weight: 700;
 }
 
 p {
-    line-height: 1.6;
-    font-size: 16px;
+    line-height: 1.8;
+    font-size: 18px;
+    color: #d1d5db;
 }
 
 a {
-    color: #3498db;
+    color: #a78bfa;
     text-decoration: none;
+    font-weight: bold;
 }
 
 a:hover {
-    color: #2980b9;
+    color: #c084fc;
     text-decoration: underline;
 }
 
 button {
-    background-color: #3498db;
+    background-color: #8b5cf6;
     color: white;
     border: none;
-    padding: 10px 15px;
-    border-radius: 5px;
+    padding: 12px 20px;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 700;
     cursor: pointer;
+    transition: 0.3s;
 }
 
 button:hover {
-    background-color: #2980b9;
+    background-color: #7c3aed;
+    transform: scale(1.05);
 }
 
 ul {
-    background-color: white;
-    padding: 15px;
-    border-radius: 8px;
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 12px;
 }
 
 li {
-    margin-bottom: 8px;
+    margin-bottom: 12px;
+    font-size: 17px;
 }
 
 img {
     max-width: 100%;
-    border-radius: 10px;
+    border-radius: 20px;
+    border: 3px solid #8b5cf6;
 }
 
-
+/* Sección principal */
 .seccion-principal {
-    background-color: #ffffff;
-    padding: 40px;
-    margin: 20px auto;
-    max-width: 900px;
-    border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(135deg, #1f2937, #111827);
+    padding: 50px;
+    margin: 30px auto;
+    max-width: 1000px;
+    border-radius: 20px;
+    box-shadow: 0 0 25px rgba(139, 92, 246, 0.4);
+    text-align: center;
 }
 
 .seccion-principal h1 {
-    color: #2c3e50;
-    text-align: center;
-    margin-bottom: 15px;
-}
-
-.seccion-principal p {
-    font-size: 18px;
-    line-height: 1.6;
-    text-align: center;
-    color: #555;
-}
-
-
-.seccion-beneficios {
-    background-color: #eaf4ff;
-    padding: 30px;
-    margin: 20px auto;
-    max-width: 900px;
-    border-radius: 10px;
-}
-
-.seccion-beneficios h2 {
-    color: #1f4e79;
-    text-align: center;
+    color: #c084fc;
     margin-bottom: 20px;
 }
 
+.seccion-principal p {
+    font-size: 20px;
+    color: #d1d5db;
+}
+
+/* Sección beneficios */
+.seccion-beneficios {
+    background: #1e293b;
+    padding: 40px;
+    margin: 30px auto;
+    max-width: 1000px;
+    border-radius: 20px;
+    border: 2px solid #8b5cf6;
+}
+
+.seccion-beneficios h2 {
+    text-align: center;
+    color: #c084fc;
+    margin-bottom: 30px;
+}
+
 .seccion-beneficios ul {
-    list-style-type: square;
-    padding-left: 30px;
+    background: transparent;
+    list-style-type: "⭐ ";
+    padding-left: 40px;
 }
 
 .seccion-beneficios li {
-    margin-bottom: 10px;
-    font-size: 16px;
-    color: #333;
+    color: #f1f5f9;
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: 600;
 }
-
