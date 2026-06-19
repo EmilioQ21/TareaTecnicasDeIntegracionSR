@@ -85,27 +85,31 @@ img {
 
 
 .seccion-beneficios {
-    background-color: #eaf4ff;
+    background-color: #f4f8ff;
     padding: 30px;
-    margin: 20px auto;
-    max-width: 900px;
     border-radius: 10px;
 }
 
 .seccion-beneficios h2 {
-    color: #1f4e79;
     text-align: center;
+    color: #1f4e79;
     margin-bottom: 20px;
 }
 
-.seccion-beneficios ul {
-    list-style-type: square;
-    padding-left: 30px;
+.tarjeta-beneficio {
+    background-color: white;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.seccion-beneficios li {
+.tarjeta-beneficio h3 {
+    color: #3498db;
     margin-bottom: 10px;
-    font-size: 16px;
-    color: #333;
+}
+
+.tarjeta-beneficio p {
+    color: #555;
 }
 
