@@ -7,17 +7,11 @@ body {
 }
 
 h1 {
-<<<<<<< HEAD
     color: #c084fc;
     text-align: center;
     font-size: 2.8rem;
     font-weight: 800;
     letter-spacing: 2px;
-=======
-    color: #ff4000;
-    text-align: center;
-    letter-spacing: 10px;
->>>>>>> c810ce4b5900260d0b54d3d8f2494c54b1f84eeb
 }
 
 h2 {
